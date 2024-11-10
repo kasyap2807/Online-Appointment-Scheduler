@@ -1,0 +1,70 @@
+.container {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 20vw;
+    margin: auto;
+  }
+  
+  .login{
+    background-image: url('../Asserts/login2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container{
+      max-width: 80vw;
+    }
+  }
+  
+  .container h2 {
+    color: #333;
+  }
+  
+  input[type='text'],
+  input[type='password'],
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6600;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .container button:hover {
+    background-color: #ff8533;
+  }
+  
+  select:hover {
+    background-color: #fff;
+  }
+  
+
+  .container a{
+    color: black;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .container a:hover{
+    color: orangered;
+  }

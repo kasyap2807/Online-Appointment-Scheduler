@@ -1,0 +1,8 @@
+::-webkit-scrollbar {
+  display: none;
+  
+}
+
+.App{
+  -ms-overflow-style: none;  /* IE and Edge */
+}
